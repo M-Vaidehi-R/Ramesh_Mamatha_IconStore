@@ -4,6 +4,14 @@
     display: flex;
 }
   
+
+.logo {
+  margin-left: 8em;
+  margin-top:-2.5em;
+  width: 10%;
+  height:auto;
+  
+}
   .container svg {
     width:90%;
   }
@@ -22,6 +30,7 @@
    width: 100%;
    height: 3em;
    background-color: rgb(241, 221, 40);
+   margin-top: 2.5em;
    
  } 
 
@@ -36,11 +45,10 @@
     grid-gap: 5em;
 }
 
-.grid_2item {
-  display: grid;
-  grid-template: 1fr 1fr;
-  grid-template-rows: auto;
-  
+ .grid2items {
+   display: grid;
+   grid-template-columns: 1fr, 1fr;
+ } 
   
  
-}
+
